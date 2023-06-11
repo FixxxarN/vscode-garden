@@ -12,12 +12,15 @@
   "activationEvents": [],
   "main": "./src/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "vscode-garden.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "views": {
+      "explorer": [
+        {
+          "type": "webview",
+          "id": "vscodeGarden.view",
+          "name": "Visual Studio Garden"
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",
