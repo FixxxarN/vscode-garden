@@ -1,6 +1,7 @@
 {
   "name": "vscode-garden",
   "displayName": "vscode-garden",
+  "publisher": "AndreTopalovicTornstrom",
   "description": "",
   "version": "0.0.1",
   "engines": {
